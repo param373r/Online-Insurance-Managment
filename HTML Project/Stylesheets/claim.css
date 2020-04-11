@@ -1,0 +1,67 @@
+#logo{
+    float: left;
+    position: relative;
+    width: 10px;
+    top: 0px;
+    margin: 0px 8% 0px 0px;
+}
+nav{
+	height: 50px;
+	background: #2c3e50;
+}
+nav ul{
+	padding: 0;
+	margin: 0px;
+	float: left;
+	margin-right: 30px;
+}
+nav ul li{
+	background: #2c3e50;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a{
+	display: block;
+	padding: 0 50px;
+	color: #ffffff;
+	text-decoration: none;
+	line-height: 50px;
+	font-size: 20px;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul{
+	position: absolute;
+    top: 50px;
+
+	line-height: 20px;
+	display: none;
+}
+nav ul ul li{
+	width: 350px;
+	float: none;
+	display: list-item;
+	position: relative;
+	line-height: 20px;
+}
+
+header{
+	margin-top: 70px;
+	margin-left: 30px;
+	width: 50%;
+    color: #ffffff;
+    font-size: large;
+}
+p{
+	padding-left: 40px;
+	width: 50%;
+    color: #ffffff;
+	font-size: large;
+	float: left;
+}
+iframe{
+	float: right;
+	margin-right: 85px;
+}

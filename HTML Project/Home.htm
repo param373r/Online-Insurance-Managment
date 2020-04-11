@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Online Insurance Management
+    </title>
+    <link rel="stylesheet" href="./Stylesheets/home.css">
+    <style>
+        .box1 {
+            background-image: url(./Images/Background-Image.jpg);
+            width: 100%;
+            height: 100vh;
+            top: 50px;
+            display: table;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .box2 {
+            background-image: url(./Images/Dashboard.jpg);
+            width: 100%;
+            height: 500px;
+            background-attachment: fixed;
+            background-position: center;
+            display: table;
+            background-size: cover;
+            color: #ffffff;
+        }
+
+        .box2 a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        .box3 {
+            background-image: url(./Images/Buy-A-New-Policy.jpg);
+            height: 600px;
+            width: 98%;
+            padding-left: 30px;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: contain;
+        }
+
+        .box4 {
+            background-image: url(./Images/About-Us.jpg);
+            height: 550px;
+            width: 98%;
+            padding-left: 30px;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: contain;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div id="logo">
+            <img src="./Images/Logo.jpg" width="50px" height="50px">
+        </div>
+        <ul>
+            <li><a href="Home.htm">Home</a></li>
+            <li><a href="Insurance Types.htm">Insurance</a>
+                <ul>
+                    <li><a href="Insurance Types.htm">Comprehensive Car Insurance</a></li>
+                    <li><a href="Insurance Types.htm">Third Party Liability Coverage</a></li>
+                    <li><a href="Insurance Types.htm">Stand Alone Damage</a></li>
+                    <li><a href="Insurance Types.htm">View All ></a></li>
+
+                </ul>
+            </li>
+            <li><a href="Policies.htm">Policy</a>
+                <ul>
+                    <li><a href="Policies.htm">Fire & Theft</a></li>
+                    <li><a href="Policies.htm">Third Party Sponsored</a></li>
+                    <li><a href="Policies.htm">View All ></a></li>
+                </ul>
+            </li>
+            <li><a href="Claim.htm">Claim</a>
+                <ul>
+                    <li><a href="Claim.htm">Register Claim</a></li>
+                    <li><a href="Claim.htm">Track Claim</a></li>
+                </ul>
+            </li>
+            <li><a href="Plans.htm">Plans</a>
+                <ul>
+                    <li><a href="Plans.htm">Third-Party Liability Plan</a></li>
+                    <li><a href="Plans.htm">Family Plans</a></li>
+                    <li><a href="Plans.htm">View All ></a></li>
+                </ul>
+            </li>
+            <li><a href="About Us.htm">About Us</a></li>
+            <li><a href="#">Login/Signup</a></li>
+
+        </ul>
+    </nav>
+
+    <header class="box1">
+        <h1 id="headw">Online Insurance Management <p>Service at your door steps</p>
+        </h1>
+    </header>
+
+
+    <div class="box2">
+
+        <div id="headx">
+            <h2><a href="Dashboard.htm">Dashboard</a></h2>
+        </div>
+
+        <br>
+
+        <div class="tabs1">
+            <p>
+                <center>
+                    <h2>Recent Policies</h2>
+                </center>
+            </p>
+            <p>
+                <center>
+                    Our company understands the need of importance to your car.
+                    We here always keep ourselves upto date with new policies newly published and originated by <a
+                        href="#"><u><b>IRDA</b></u></a>
+                </center>
+            </p>
+        </div>
+        <div class="tabs1">
+            <p>
+                <center>
+                    <h2>Product</h2>
+                </center>
+            </p>
+            <p>
+                <center>With the growing industrial need it's our duty to keep ourselves up-to-date. View our
+                    astonishing products and offers now. Getting excited?? <a href="#">Click Here.</a></center>
+            </p>
+        </div>
+        <div class="tabs1">
+            <p>
+                <center>
+                    <h2>IDV</h2>
+                </center>
+            </p>
+            <p>
+                <center>High returns at lower rate. Not limited to this, but also our company provides great benefits at
+                    cheap prices. Know more about our <a href="https://bit.ly/3aRaUBz"><b>Insured Declared Value</b></a>
+                    policy</center>
+            </p>
+        </div>
+    </div>
+    <div class="box3">
+        <div id="heady">
+            <h2><u>Buy A New Policy</u></h2>
+        </div>
+
+        <br>
+
+        <form action="#">
+            <label for="car-type">Car Type:</label><br>
+            <input type="text" id="car-type"><br>
+            <label for="reg-no">Car Registration Number:</label><br>
+            <input type="text" id="reg-no"><br>
+            <label for="policy">Select Policy:</label><br>
+            <select id="policy" name="policy">
+                <option>No Claim Bonus</option>
+                <option>Insured Declared Value</option>
+                <option>Roadside Accident</option>
+            </select><br><br>
+            <button>
+                <center>Buy Policy</center>
+            </button>
+        </form>
+    </div>
+    <div class="box4">
+        <div id="headz">
+            <h2><u><a href="About Us.htm">About Us</a></u></h2>
+        </div>
+
+        <br>
+
+        <div class="tabs2">
+            <p>
+                <center>“Insurance is like marriage. You pay, pay, pay, and you never get anything back.”<br>-Rajit
+                    Mehta(CEO of MAX Life Insurance)</center>
+            </p>
+        </div>
+    </div>
+
+    <div id="foot">
+        <center>Our company is a startup by 3 college students pursuing B.Tech CSE in LPU University.</center>
+        <center>Contact the Co-founders on Linkedin below:</center>
+        <center><a href="https://www.linkedin.com/in/itsparamjotsingh/">Paramjot Singh</a></center>
+        <center><a href="https://www.linkedin.com/in/suraj-gupta-902531190/">Suraj</a></center>
+        <center><a href="https://www.linkedin.com/in/kamil-sharma-3666aa194">Kamil Sharma</a></center>
+    </div>
+
+</body>
+
+</html>

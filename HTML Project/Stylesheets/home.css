@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #070F57;
+}
+#logo{
+    float: left;
+    position: relative;
+    width: 10px;
+    top: 0px;
+    margin: 0px 8% 0px 0px;
+}
+nav{
+	height: 50px;
+	background: #2c3e50;
+}
+nav ul{
+	padding: 0;
+	margin: 0px;
+	float: left;
+	margin-right: 30px;
+}
+nav ul li{
+	background: #2c3e50;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a{
+	display: block;
+	padding: 0 50px;
+	color: white;
+	text-decoration: none;
+	line-height: 50px;
+	font-size: 20px;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul{
+	position: absolute;
+    top: 50px;
+
+	line-height: 20px;
+	display: none;
+}
+nav ul ul li{
+	width: 350px;
+	float: none;
+	display: list-item;
+	position: relative;
+	line-height: 20px;
+}
+#headw{
+    margin: 0 px;
+    display: table-cell;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    vertical-align: middle;
+}
+#headw p{
+    font-size: 30px;
+}
+#headx{
+    margin-left: 30px;
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: underline;
+}
+#heady{
+    padding-top: 10px;
+    font-size: 28px;
+    color: #ffffff;
+}
+#headz{
+    padding-top: 10px;
+    font-size: 28px;
+    color: #ffffff;
+}
+#headz a{
+    color: #ffffff
+}
+.tabs1{
+    width: 30%;
+    height: 150px;
+    font-size: 20px;
+    float: left;
+    padding: 20px;
+}
+.tabs1 a{
+    color: #ffffff;
+}
+.tabs2{
+    margin: 100px;
+    color: #ffffff;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label{
+    font-size: 20px;
+}
+input[type=text],select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #070F57;
+    border-radius: 4px;
+}
+button{
+    border: 1px solid #070F57;
+    background-color: #070F57;
+    color: #ffffff;
+    width: 130px;
+    height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#foot{
+    font-size: 20px;
+    padding-top: 20px;
+    width: 100%;
+    bottom: 0px;
+    height: 120px;
+    font-weight: bold;
+    background-color: #000000;
+    color: #ffffff;
+}
+#foot a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 17px;
+}
